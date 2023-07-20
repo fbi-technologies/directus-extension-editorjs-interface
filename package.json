@@ -58,19 +58,13 @@
     "@editorjs/warning": "^1.2.0",
     "editorjs-undo": "^2.0.5",
     "@itech-indrustries/editorjs-strikethrough": "^1.0.0",
-    "directus-codestyle": "dimitrov-adrian/directus-codestyle",
     "editorjs-alert": "^1.0.3",
     "editorjs-list": "^2.1.4",
     "editorjs-text-alignment-blocktune": "^1.0.3",
     "lodash": "^4.17.21",
     "typescript": "^4.7.4"
   },
-  "prettier": "directus-codestyle/prettier",
-  "stylelint": {
-    "extends": "directus-codestyle/stylelint"
-  },
   "eslintConfig": {
-    "extends": "./node_modules/directus-codestyle/.eslintrc.js",
     "parserOptions": {
       "sourceType": "module"
     }
