@@ -42,7 +42,10 @@ export default function getTools(
 		header: {
 			class: HeaderTool,
 			shortcut: 'CMD+SHIFT+H',
-			inlineToolbar: true,
+			inlineToolbar: ['bold'],
+			config: {
+				preserveBlank: true,
+			},
 		},
 		list: {
 			class: ListTool,
@@ -60,7 +63,10 @@ export default function getTools(
 		},
 		paragraph: {
 			class: ParagraphTool,
-			inlineToolbar: true,
+			inlineToolbar: ['bold'],
+			config: {
+				preserveBlank: true,
+			},
 		},
 		code: {
 			class: CodeTool,
